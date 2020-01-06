@@ -21,3 +21,34 @@ cardArray[0].notes
 
 var cardArray = card.data.map(a => a.attributes)
 cardArray[getRandomInt(cardArray.length)]
+
+data
+VM90:1 Uncaught ReferenceError: data is not defined
+    at eval (eval at <anonymous> (index.js:34), <anonymous>:1:1)
+    at index.js:34
+eval @ VM90:1
+(anonymous) @ index.js:34
+Promise.then (async)
+(anonymous) @ index.js:33
+card
+{data: {…}}
+card.data
+{id: "1", type: "card", attributes: {…}}
+card.data.attributes
+{edition: 1, cardnumber: 1, strategy: "Abandon normal instruments", notes: Array(2), posts: Array(2)}
+card.data.attributes.notes
+(2) [{…}, {…}]
+card.data.attributes.notes["length"]
+2
+card.data.attributes.posts
+(2) [{…}, {…}]0: {id: 11, url: "https://soundcloud.com/markdenardo/waking-me-up", like: 1, note_id: 25, created_at: "2020-01-06T19:43:03.075Z", …}1: {id: 12, url: "https://soundcloud.com/markdenardo/bbb-game", like: 1, note_id: 26, created_at: "2020-01-06T19:43:03.098Z", …}length: 2__proto__: Array(0)
+card.data.attributes.posts["length"]
+2
+card.data.attributes.posts.forEach(p=>{p.like})
+undefined
+card.data.attributes.posts.forEach(p=>{})
+undefined
+card.data.attributes.posts[0].url
+"https://soundcloud.com/markdenardo/waking-me-up"
+card.data.attributes.posts[1].url
+"https://soundcloud.com/markdenardo/bbb-game"
