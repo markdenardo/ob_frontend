@@ -2,18 +2,27 @@
 <html>
 <header>
   <title>oblique_strategies_playground</title>
+  <h1>oblique_strategies_playground</h1>
 </header>
 <body>
 
 <div id="canvas">
-  <h1 id="obcard"></h1>
+  <h2 id="obcard"></h2>
   <button id='randomcard'> random card </button>
 
-  <h2 id="obnote"></h2>
-  <button id='newnote'> new note </button>
+  <h3 id="obnote"></h3>
+  <form id="comment-form" action="">
+      <input type='text' name="comment" id="comment-input" cols="30" rows="10">
+      </br>
+      <button id='newnote'> new note </button>
+    </form>
 
   <h3 id="obpost"></h3>
-  <button id='newpost'> new post </button>
+  <form id="comment-form" action="">
+      <input type='text' name="comment" id="comment-input" cols="30" rows="10">
+      </br>
+      <button id='newpost'> new post </button>
+    </form>
 </div>
 <script async type="text/javascript" src="index.js"></script>
 </body>
