@@ -52,3 +52,18 @@ card.data.attributes.posts[0].url
 "https://soundcloud.com/markdenardo/waking-me-up"
 card.data.attributes.posts[1].url
 "https://soundcloud.com/markdenardo/bbb-game"
+
+cardArray[0].notes[0].comment
+"Made a song with a kettle."
+cardArray[0].notes[0].like
+1
+cardArray[0].notes[0].card_id
+1
+cardArray[0].notes[0].card_id
+1
+cardArray[0].posts[0].card_id
+undefined
+cardArray[0].posts[0].url
+"https://soundcloud.com/markdenardo/waking-me-up"
+cardArray[0].posts[0].note_id
+25
